@@ -200,8 +200,10 @@ class PointTool(QgsMapTool):
             f5.close()
                  
             fileVRT = ("%s") %(out_folder + '/original.vrt')
-            
-            subprocess.call([ "gdalbuildvrt", fileVRT, "-input_file_list", listaRaster ])            
+            qgisPath = QgsApplication.prefixPath() + '/../../bin/' + 'gdalbuildvrt'
+
+#            subprocess.call([ "gdalbuildvrt", fileVRT, "-input_file_list", listaRaster ])
+            subprocess.call([ qgisPath, fileVRT, "-input_file_list", listaRaster ])                        
 
             fileVRT = fileVRT.replace("/","\\")
                         
