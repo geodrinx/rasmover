@@ -12,7 +12,7 @@
 name=rasmover
 qgisMinimumVersion=2.0
 description=rasmover
-version=0.1
+version=0.2
 author=geodrinx
 email=geodrinx@gmail.com
 
