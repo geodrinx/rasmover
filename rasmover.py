@@ -10,7 +10,7 @@
         email                : geodrinx@gmail.com
         
         Roberto (BobMaX) Angeletti   2014-03-24   idea and first version
-        Giovanni Manghi              2014-12-17   porting, bug fix  to Linux
+        Giovanni Manghi              2014-12-17   fix installation on Linux, fix bug on Windows when using some projections
         
  ***************************************************************************/
 
